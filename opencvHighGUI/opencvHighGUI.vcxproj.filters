@@ -27,6 +27,9 @@
     <ClCompile Include="trackbarTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="mouseCallbackTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="all.h">

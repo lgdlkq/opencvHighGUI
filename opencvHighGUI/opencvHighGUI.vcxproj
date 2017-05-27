@@ -151,6 +151,7 @@
     <ClCompile Include="imwriteGUI.cpp" />
     <ClCompile Include="imwriteTest.cpp" />
     <ClCompile Include="mainTest.cpp" />
+    <ClCompile Include="mouseCallbackTest.cpp" />
     <ClCompile Include="trackbarTest.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -45,6 +45,10 @@ void testTrackbar() {
 
 	//结果在回调函数中显示
 	on_Trackbar(g_nAlphaValueSlider, 0);
+	//获得当前轨迹条的位置并打印
+	int getValues = getTrackbarPos(TrackbarName,WINDOW_NAME);//第一个参数为轨迹条名字，第二个参数为轨迹条父窗口名字
+	printf("当前轨迹条的位置为：%d\n",getValues);
+
 	waitKey(0);
 }
 
